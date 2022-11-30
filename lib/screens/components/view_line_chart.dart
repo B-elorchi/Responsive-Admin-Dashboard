@@ -33,11 +33,7 @@ class _ViewLineChartState extends State<ViewLineChart> {
             bottomTitles: SideTitles(
               showTitles: true,
               reservedSize: 22,
-              getTextStyles: (value) => TextStyle(
-                color: lightTextColor,
-                fontWeight: FontWeight.bold,
-                fontSize: 14,
-              ),
+              
               getTitles: (value) {
                 switch(value.toInt()){
                   case 1:

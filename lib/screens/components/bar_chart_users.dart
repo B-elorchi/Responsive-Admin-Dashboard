@@ -14,11 +14,7 @@ class BarChartUsers extends StatelessWidget {
             show: true,
             bottomTitles: SideTitles(
                 showTitles: true,
-                getTextStyles: (value) => const TextStyle(
-                      color: lightTextColor,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 12,
-                    ),
+                
                 margin: appPadding,
                 getTitles: (double value) {
                   if (value == 2) {
@@ -41,11 +37,7 @@ class BarChartUsers extends StatelessWidget {
                 }),
           leftTitles: SideTitles(
               showTitles: true,
-              getTextStyles: (value) => const TextStyle(
-                color: lightTextColor,
-                fontWeight: FontWeight.bold,
-                fontSize: 12,
-              ),
+              
               margin: appPadding,
               getTitles: (double value) {
                 if (value == 2) {

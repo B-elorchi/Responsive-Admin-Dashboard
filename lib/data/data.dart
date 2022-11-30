@@ -7,13 +7,13 @@ import 'package:responsive_admin_dashboard/models/referal_info_model.dart';
 
 List analyticData = [
   AnalyticInfo(
-    title: "Subscribers",
+    title: "Valets",
     count: 720,
     svgSrc: "assets/icons/Subscribers.svg",
     color: primaryColor,
   ),
   AnalyticInfo(
-    title: "Post",
+    title: "Client",
     count: 820,
     svgSrc: "assets/icons/Post.svg",
     color: purple,
@@ -25,7 +25,7 @@ List analyticData = [
     color: orange,
   ),
   AnalyticInfo(
-    title: "Comments",
+    title: "complaint",
     count: 920,
     svgSrc: "assets/icons/Comments.svg",
     color: green,

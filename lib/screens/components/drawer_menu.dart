@@ -12,15 +12,23 @@ class DrawerMenu extends StatelessWidget {
         children: [
           Container(
             padding: EdgeInsets.all(appPadding),
-            child: Image.asset("assets/images/logowithtext.png"),
+            child: Image.asset("assets/images/logo-valet.png"),
           ),
           DrawerListTile(
-              title: 'Dash Board',
+              title: 'DashBoard',
               svgSrc: 'assets/icons/Dashboard.svg',
               tap: () {}),
           DrawerListTile(
-              title: 'Blog Post',
+              title: 'Operation',
               svgSrc: 'assets/icons/BlogPost.svg',
+              tap: () {}),
+          DrawerListTile(
+              title: 'Users' ,svgSrc: 'assets/icons/users.svg', tap: () {}),
+          DrawerListTile(
+              title: 'Valet', svgSrc: 'assets/icons/valets.svg', tap: () {}),
+          DrawerListTile(
+              title: 'Partner',
+              svgSrc: 'assets/icons/partner.svg',
               tap: () {}),
           DrawerListTile(
               title: 'Message', svgSrc: 'assets/icons/Message.svg', tap: () {}),
@@ -35,15 +43,12 @@ class DrawerMenu extends StatelessWidget {
               thickness: 0.2,
             ),
           ),
-
           DrawerListTile(
               title: 'Settings',
               svgSrc: 'assets/icons/Setting.svg',
               tap: () {}),
           DrawerListTile(
-              title: 'Logout',
-              svgSrc: 'assets/icons/Logout.svg',
-              tap: () {}),
+              title: 'Logout', svgSrc: 'assets/icons/Logout.svg', tap: () {}),
         ],
       ),
     );

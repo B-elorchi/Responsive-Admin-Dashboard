@@ -23,7 +23,7 @@ class Discussions extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                'Discussions',
+                'Valet',
                 style: TextStyle(
                   color: textColor,
                   fontWeight: FontWeight.w700,
@@ -48,7 +48,9 @@ class Discussions extends StatelessWidget {
               physics: NeverScrollableScrollPhysics(),
               shrinkWrap: true,
               itemCount: discussionData.length,
-              itemBuilder: (context, index) => DiscussionInfoDetail(info: discussionData[index],),
+              itemBuilder: (context, index) => DiscussionInfoDetail(
+                info: discussionData[index],
+              ),
             ),
           )
         ],

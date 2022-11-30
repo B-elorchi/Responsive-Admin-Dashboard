@@ -43,21 +43,25 @@ class ProfileInfo extends StatelessWidget {
             children: [
               ClipRRect(
                 child: Image.asset(
-                  'assets/images/photo3.jpg',
+                  'assets/images/user.png',
                   height: 38,
                   width: 38,
                   fit: BoxFit.cover,
                 ),
                 borderRadius: BorderRadius.circular(30),
               ),
-              if(!Responsive.isMobile(context))
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: appPadding / 2),
-                child: Text('Hii, Arinalis',style: TextStyle(
-                  color: textColor,
-                  fontWeight: FontWeight.w800,
-                ),),
-              )
+              if (!Responsive.isMobile(context))
+                Padding(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: appPadding / 2),
+                  child: Text(
+                    'Elorchi',
+                    style: TextStyle(
+                      color: textColor,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                )
             ],
           ),
         )
